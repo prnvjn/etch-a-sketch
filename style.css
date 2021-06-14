@@ -1,0 +1,15 @@
+#container{
+    width: 480px;
+    height: 480px;
+    display: flex;
+   flex-wrap: wrap;
+   margin: auto ;
+}
+.element{
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+   
+
+}
