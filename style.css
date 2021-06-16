@@ -1,15 +1,26 @@
+*{
+    font-family: Helvetica;
+}
 #container{
     width: 480px;
     height: 480px;
     display: flex;
    flex-wrap: wrap;
    margin: auto ;
+   
 }
 .element{
     box-sizing: border-box;
     width: 30px;
     height: 30px;
-    background-color: aqua;
-   
-
+    background-color:rgb(78, 37, 226);
+    border: 2px solid
 }
+.highLight{
+    background-color: rgb(182, 182, 35);
+}
+
+#reset{
+ padding: 4px 9px;
+}
+
