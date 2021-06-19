@@ -1,6 +1,9 @@
 *{
     font-family: Helvetica;
 }
+.title{
+    text-align: center;
+}
 #container{
     width: 480px;
     height: 480px;
@@ -11,16 +14,18 @@
 }
 .element{
     box-sizing: border-box;
-    width: 30px;
-    height: 30px;
-    background-color:rgb(78, 37, 226);
+    width: 24px;
+    height: 24px;
+    background-color:rgb(226, 106, 37);
+   
     border: 2px solid
 }
 .highLight{
-    background-color: rgb(182, 182, 35);
+    background-color: rgb(33, 134, 218);
 }
 
 #reset{
  padding: 4px 9px;
+ margin: auto;
 }
 
