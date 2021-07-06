@@ -18,7 +18,7 @@
     height: 24px;
     background-color:rgb(226, 106, 37);
    
-    border: 2px solid
+    
 }
 .highLight{
     background-color: rgb(33, 134, 218);
@@ -29,3 +29,16 @@
  margin: auto;
 }
 
+.slider{
+    appearance: none;
+    width: 200px;
+    height: 5px;
+    background-color:  rgb(33, 134, 218);
+    border: 2px solid;
+}
+.slider::-webkit-slider-thumb{
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    background:rgb(226, 106, 37);
+}
